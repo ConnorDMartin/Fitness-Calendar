@@ -789,7 +789,7 @@ edit_button = tk.Button(master = frame2, text = "Edit User Info", command = edit
 weight_label = tk.Label(master = frame2, text = "Weight: " + str(Weight.value))
 BMI_label = tk.Label(master = frame2, text = "BMI: " + str(round(BMI.value, 2)))
 RHR_label = tk.Label(master = frame2, text = "RHR: " + str(RHR.value))
-meas_label = tk.Label(master = frame2, text = "Measurements: " + str(Measurements.calc()))
+meas_label = tk.Label(master = frame2, text = "Waist Measurement: " + str(Measurements.calc()))
 BMR_label = tk.Label(master = frame2, text = "BMR: " + str(round(BMR.value, 2)))
 mcal_label = tk.Label(master = frame2, text = "Mainenance Calories: " + str(round(MCal.value, 2)))
 
