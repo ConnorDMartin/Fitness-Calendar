@@ -12,7 +12,11 @@ Visually, the use of SQlite3 limits how complex or visually pleasing the UI can 
 
 Usage:
 
-
+When run, a window prompting the user to login or create a new profile opens. If the user already has a profile on their device, they shouold type their name into the text box and press submit to continue. If they do not already have a profile, they should press the 'New User' button then enter the information needed to create a new user profile.
+Once the user has logged in to their profile, they can then start using the main window of the program. Displayed on the right side of this window is the profile currently logged in, buttons to display or edit the user information (Name, age, biological sex, height, and activity level) in a new window.
+Displayed below this are the user's weight, BMI, RHR, waist measurement, BMR, and maintenance calories. This display updates as the user inputs new data.
+On the right side of the window is an interactive calendar. Below this calendar are two buttons: one to display and one to edit and one to display the weight, waist measurement, and heart beats in 15 seconds on the selected day.
+When the user is done with the program, all they need to do is close the main window and all changes made during runtime will be updated in the database.
 
 Installation:
 
