@@ -21,5 +21,5 @@ When the user is done with the program, all they need to do is close the main wi
 Installation:
 
 1. Before installing the project, make sure you have python installed onto your computer (you can download the latest version of python [here](https://www.python.org/downloads/)) and have the Tkcalendar library pip installed (enter the command "pip install tkcalendar" into your terminal once python is installed).
-2. Download the .py file from this project's main branch.
+2. Download the fitness_tracker.py file from this project's main branch.
 3. Use your terminal or a program like VS Code to run the downoaded .py file.
